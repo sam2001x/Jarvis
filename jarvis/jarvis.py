@@ -47,6 +47,13 @@ def read_news():
         speak(articles['title'])
         speak("next news")
         time.sleep(2)
+        
+def Flip_coin():
+     coin = ["head","tail"]
+     coin = rm.choice(coin)
+     playsound("<PATH>") # Replace <PATH> with the path of mp3 sound you want to play while flipping coin
+     speak(f"{coin}")
+                       
 
 def WishMe():
     hour = int(datetime.datetime.now().hour)
@@ -161,6 +168,11 @@ if __name__ == "__main__":
 
         elif 'quit' or 'exit' or "jarvis shutdown"  in query:          
             exit()
+            
+        
+        elif "toss a coin" or "flip a coin" in query:
+                Flip_coin()    
+            
         
         
 
