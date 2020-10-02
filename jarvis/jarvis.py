@@ -173,6 +173,16 @@ if __name__ == "__main__":
         elif "toss a coin" or "flip a coin" in query:
                 Flip_coin()    
             
+        #New Features Pending:            (updated on 02-10-2020)
+        # Song recognition Feature
+        # daily expence writer
+
+        # Test 1: it will store the amount spend and on which product amount is spend with date and time.
+        #
+        # elif 'spend' in query:
+        #     amount = find_number(query)
+        #     with open("Ballog.txt","a") as f:
+        #         f.write(f"{amount} spend on {datetime.now()}\n")
         
         
 
