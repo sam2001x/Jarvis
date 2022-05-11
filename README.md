@@ -1,4 +1,4 @@
-# Jarvis
+# J.A.R.V.I.S (Just A Rather Very Intelligent System)
 A custom virtual assistant .
 This project is made using sinple if else statements in python and microsoft build in voice recognition tool.
 # FEATURES
