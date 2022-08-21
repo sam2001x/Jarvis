@@ -10,4 +10,7 @@ This project is made using sinple if else statements in python and microsoft bui
 * Browsing
 * Emailing
 * Music Playlist
-
+# HOW TO USE?
+* Clone the repository or download the zip file.
+* Install  all the required packages using pip.
+* Run the file and Enjoy.
